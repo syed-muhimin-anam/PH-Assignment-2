@@ -70,7 +70,7 @@ nav{
 }
 #nav-icons{
     color: white;
-    font-size: 3rem;
+    font-size: 2.3rem;
     display: none;
 }
 /* banner section start */
@@ -166,23 +166,69 @@ nav{
     justify-content: space-between;
 }
 
+/* change your habit section start */
+.habit-section{
+    width: 75%;
+    margin: 150px auto 0 auto;
+}
+.habit-section-intro{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.about-habit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.habit{
+    width: 20%;
+    text-align: center;
+}
+.habit img{
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+
+
+}
+
 
  /* responsive media query start */
 
  @media screen  and (max-width:576px){
 
-    nav, .banner-section{
+    nav, .banner-section,.habit-section{
         width: 85%;
         
     }
-    .banner-section{
+    .banner-section, .about-habit {
         flex-direction: column;
     }
     .banner-content{
         width: 100%;
         margin-bottom: 80px;
     }
-    
+    .habit-section-intro{
+        width: 100%;
+    }
+    .habit{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .habit-section-intro h1{
+        font-size: 2.5rem;
+    }
+    .banner-content h1{
+        font-size: 3.5rem;
+    }
+
+
 
 
 
@@ -208,5 +254,6 @@ nav{
         margin-right: -50px;
         margin-top: -550px;
     }
+   
     
  }
