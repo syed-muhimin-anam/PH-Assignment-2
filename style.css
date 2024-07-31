@@ -276,6 +276,87 @@ nav{
     height: 215px;
 }
 
+/* bmi calculator section start */
+.bmi-title{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+.bmi-intro{
+    width: 45%;
+    margin: 0 auto;
+}
+table th{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+table tr td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+} 
+
+table,th,td {
+    border: 1px solid rgba(255, 255, 255, 0.324);
+    border-collapse: collapse;
+    padding: 10px 27px 15px 18px;
+}
+.bmi-section{
+    background: rgb(34, 34, 34);
+    padding-bottom: 30px;
+    margin: 50px 0 100px 0;
+}
+.bmi-main-section{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculate-section{
+    width: 55%;
+}
+.bmi-calculator-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  input{
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(99, 97, 97);
+  }
+  input::placeholder {
+    color: white;
+  }
+  .gender{
+    width: 100%;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(99, 97, 97);
+  }
+  .activity{
+    width: 203.5%;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(99, 97, 97);
+    margin-bottom: 10px;
+  }
+
  /* responsive media query start */
 
  @media screen  and (max-width:576px){
@@ -284,27 +365,36 @@ nav{
         width: 85%;
         
     }
-    .banner-section, .about-habit, .extramile-section {
+    .banner-section, .about-habit, .extramile-section, .bmi-main-section {
         flex-direction: column;
     }
     .banner-content{
         width: 100%;
         margin-bottom: 80px;
     }
-    .habit-section-intro, .extramile-btn {
+    .habit-section-intro, .extramile-btn, .calculate-section, .activity  {
         width: 100%;
     }
-    .habit{
+    .habit, .bmi-intro  {
         width: 80%;
         margin: 0 auto;
     }
 
-    .habit-section-intro h1 , .extramile-intro h1, .training-section h1{
+    .habit-section-intro h1 , .extramile-intro h1, .training-section h1, .bmi-intro h1{
         font-size: 2.5rem;
     }
     .banner-content h1{
         font-size: 3.5rem;
     }
+
+
+
+
+    .bmi-calculator-form{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 10px;
+      }
 
 
     .extramile-intro{
