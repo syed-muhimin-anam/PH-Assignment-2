@@ -217,6 +217,65 @@ nav{
     margin-right: 35px;
 }
 
+/* training and exercise section start */
+.training-section{
+    width: 75%;
+    margin: 100px auto 100px auto;
+}
+.row{
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+    margin-top: 50px;
+}
+
+.exercise1{
+    background-image: url(images/exercise1.jpg);
+    background-size: cover;
+    background-color: rgba(6, 255, 210, 0.5);
+    background-blend-mode: overlay;
+    height: 215px;
+}
+.exercise2{
+    background-image: url(images/exercise2.png);
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    height: 215px;
+}
+.exercise3{
+    background-image: url(images/exercise3.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    height: 215px;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns:45% 25% 30% ;
+}
+.exercise4{
+    background-image: url(images/exercise4.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    height: 215px;
+}
+.exercise5{
+    background-image: url(images/exercise5.jpg);
+    background-size: cover;
+    background-color: rgba(66, 255, 0, 0.3);
+    background-blend-mode: overlay;
+    height: 215px;
+}
+.exercise6{
+    background-image: url(images/exercise6.jpg);
+    background-size: cover;
+    background-color:rgba(0, 71, 255, 0.3);
+    background-blend-mode: overlay;
+    height: 215px;
+}
+
  /* responsive media query start */
 
  @media screen  and (max-width:576px){
@@ -240,7 +299,7 @@ nav{
         margin: 0 auto;
     }
 
-    .habit-section-intro h1 , .extramile-intro h1{
+    .habit-section-intro h1 , .extramile-intro h1, .training-section h1{
         font-size: 2.5rem;
     }
     .banner-content h1{
@@ -283,6 +342,29 @@ nav{
         margin-right: -50px;
         margin-top: -550px;
     }
-   
+    .row{
+        display: grid;
+        grid-template-columns: 45% 55%;
+        margin-top: 50px;
+    }
+    .row2{
+        display: grid;
+        grid-template-columns:55% 45% ;
+    }
+
+    .exercise3, .exercise6{
+        display: none;
+    }
+
+    .exercise1{
+       background-position: center;
+    }
+    .exercise2{
+        background-position: right;
+    }
+
+    .exercise5{
+       background-position: center;
+    }
     
  }
