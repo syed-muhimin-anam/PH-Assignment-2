@@ -196,24 +196,45 @@ nav{
 
 
 }
+/* Run an extra mile section */
+.extramile-section{
+    width: 75%;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+}
+.extramile-intro{
+    width: 42%;
+    margin-left: 55px;
+    margin-bottom: 35px;
+}
+.extramile-image{
+    width: 35%;
+    border-radius: 20px;
+    margin-right: 35px;
+}
+
 
 
  /* responsive media query start */
 
  @media screen  and (max-width:576px){
 
-    nav, .banner-section,.habit-section{
+    nav, .banner-section,.habit-section,.extramile-section{
         width: 85%;
         
     }
-    .banner-section, .about-habit {
+    .banner-section, .about-habit, .extramile-section {
         flex-direction: column;
     }
     .banner-content{
         width: 100%;
         margin-bottom: 80px;
     }
-    .habit-section-intro{
+    .habit-section-intro, .extramile-btn {
         width: 100%;
     }
     .habit{
@@ -221,7 +242,7 @@ nav{
         margin: 0 auto;
     }
 
-    .habit-section-intro h1{
+    .habit-section-intro h1 , .extramile-intro h1{
         font-size: 2.5rem;
     }
     .banner-content h1{
@@ -229,7 +250,17 @@ nav{
     }
 
 
-
+    .extramile-intro{
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .extramile-image{
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 
 
     .nav-items{
