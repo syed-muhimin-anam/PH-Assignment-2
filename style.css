@@ -357,11 +357,116 @@ table,th,td {
     margin-bottom: 10px;
   }
 
+
+/* meet our team section start */
+.our-team-section{
+    width: 75%;
+    margin: 0 auto;
+}
+ .our-team-intro{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .trainer-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ .trainer-1{
+    height: 270px;
+    background-image: url(images/trainer1.png);
+    background-position: top;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+ }
+ .trainer-2{
+    height: 270px;
+    background-image: url(images/trainer2.png);
+    background-position: top;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+ }
+ .trainer-3{
+    height: 270px;
+    background-image: url(images/trainer3.png);
+    background-position: top;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+ }
+ .trainer-4{
+    height: 270px;
+    background-image: url(images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+ }
+ .trainer-5{
+    height: 270px;
+    background-image: url(images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+ }
+ .trainer-6{
+    height: 270px;
+    background-image: url(images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+ }
+
+ .trainer-section h6{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin: 0 20px;
+ }
+ .trainer-section p{
+    margin-left: 20px;
+ }
+
+
+
  /* responsive media query start */
 
  @media screen  and (max-width:576px){
 
-    nav, .banner-section,.habit-section,.extramile-section{
+    nav, .banner-section,.habit-section,.extramile-section, .our-team-section{
         width: 85%;
         
     }
@@ -372,7 +477,7 @@ table,th,td {
         width: 100%;
         margin-bottom: 80px;
     }
-    .habit-section-intro, .extramile-btn, .calculate-section, .activity  {
+    .habit-section-intro, .extramile-btn, .calculate-section, .activity, .our-team-intro  {
         width: 100%;
     }
     .habit, .bmi-intro  {
@@ -380,7 +485,8 @@ table,th,td {
         margin: 0 auto;
     }
 
-    .habit-section-intro h1 , .extramile-intro h1, .training-section h1, .bmi-intro h1{
+    .habit-section-intro h1 , .extramile-intro h1, .training-section h1, .bmi-intro h1,
+    .our-team-intro h3{
         font-size: 2.5rem;
     }
     .banner-content h1{
@@ -390,7 +496,7 @@ table,th,td {
 
 
 
-    .bmi-calculator-form{
+    .bmi-calculator-form, .trainer-section{
         display: grid;
         grid-template-columns:1fr;
         gap: 10px;
