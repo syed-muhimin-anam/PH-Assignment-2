@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
   }
-
   .playwrite-ar-font {
     font-family: "Playwrite AR", cursive;
     font-optical-sizing: auto;
@@ -13,7 +13,7 @@
     font-weight: 400;
   }
 
-/* global class */
+/* global class------------------------------------------------------- */
 body{
     background-color: black;
     margin: 0;
@@ -25,18 +25,20 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
 .title{
     font-size: 3rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
 
-/* navigation style start */
+/* navigation style start----------------------------------------------*/
 .nav-title{
     font-size: 2.25rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -44,9 +46,9 @@ nav{
     width: 75%;
     margin: 30px auto ;
 }
+
 .nav-items-container{
     width: 45%;
-    
 }
 
 .nav-items{
@@ -58,23 +60,27 @@ nav{
     border-radius: 40px;
     padding: 4px 10px 4px 4px;
 }
+
 .item{
     font-size: 1.15rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
+
 .home-item{
     border-radius: 46px;
     padding: 8px 20px 8px 20px;
     background: rgb(230, 83, 60);
 }
+
 #nav-icons{
     color: white;
     font-size: 2.3rem;
     display: none;
 }
-/* banner section start------------------------------------------- */
 
+
+/* banner section start------------------------------------------- */
 .banner-section{
     width: 75%;
     margin: 0 auto;
@@ -156,6 +162,7 @@ nav{
     font-weight: 900;
     margin: 10px 0 0 0;
 }
+
 .free-videos-text-2{
     color: rgba(239, 237, 232, 0.65);
     margin: 0;
@@ -166,37 +173,41 @@ nav{
     justify-content: space-between;
 }
 
-/* change your habit section start */
+/* change your habit section start ---------------------------------------------------*/
 .habit-section{
     width: 75%;
     margin: 150px auto 0 auto;
 }
+
 .habit-section-intro{
     width: 65%;
     margin: 0 auto;
     text-align: center;
 }
+
 .habit-title{
     color: rgb(255, 255, 255);
     font-size: 1.15rem;
     font-weight: 600;
 }
+
 .about-habit{
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
 }
+
 .habit{
     width: 20%;
     text-align: center;
 }
+
 .habit img{
     border: 3px solid rgba(255, 255, 255, 0.5);
     border-radius: 100%;
-
-
 }
-/* Run an extra mile section */
+
+/* Run an extra mile section----------------------------------------------- */
 .extramile-section{
     width: 75%;
     margin: 100px auto 0 auto;
@@ -206,22 +217,25 @@ nav{
     border-radius: 18px;
     background-color: rgb(34, 34, 34);
 }
+
 .extramile-intro{
     width: 42%;
     margin-left: 55px;
     margin-bottom: 35px;
 }
+
 .extramile-image{
     width: 35%;
     border-radius: 20px;
     margin-right: 35px;
 }
 
-/* training and exercise section start */
+/* training and exercise section start---------------------------------------*/
 .training-section{
     width: 75%;
     margin: 100px auto 100px auto;
 }
+
 .row{
     display: grid;
     grid-template-columns: 25% 45% 30%;
@@ -235,6 +249,7 @@ nav{
     background-blend-mode: overlay;
     height: 215px;
 }
+
 .exercise2{
     background-image: url(images/exercise2.png);
     background-size: cover;
@@ -242,6 +257,7 @@ nav{
     background-blend-mode: overlay;
     height: 215px;
 }
+
 .exercise3{
     background-image: url(images/exercise3.png);
     background-size: cover;
@@ -254,6 +270,7 @@ nav{
     display: grid;
     grid-template-columns:45% 25% 30% ;
 }
+
 .exercise4{
     background-image: url(images/exercise4.png);
     background-size: cover;
@@ -261,6 +278,7 @@ nav{
     background-blend-mode: overlay;
     height: 215px;
 }
+
 .exercise5{
     background-image: url(images/exercise5.jpg);
     background-size: cover;
@@ -268,6 +286,7 @@ nav{
     background-blend-mode: overlay;
     height: 215px;
 }
+
 .exercise6{
     background-image: url(images/exercise6.jpg);
     background-size: cover;
@@ -276,7 +295,7 @@ nav{
     height: 215px;
 }
 
-/* bmi calculator section start */
+/* bmi calculator section start --------------------------------------------*/
 .bmi-title{
     color: rgb(255, 255, 255);
     font-size: 28px;
@@ -303,11 +322,13 @@ table,th,td {
     border-collapse: collapse;
     padding: 10px 27px 15px 18px;
 }
+
 .bmi-section{
     background: rgb(34, 34, 34);
     padding-bottom: 30px;
     margin: 50px 0 100px 0;
 }
+
 .bmi-main-section{
     width: 75%;
     margin: 0 auto;
@@ -318,12 +339,14 @@ table,th,td {
 .calculate-section{
     width: 55%;
 }
+
 .bmi-calculator-form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-  }
-  input{
+}
+
+input{
     color: white;
     border: none;
     font-size: 1rem;
@@ -331,11 +354,13 @@ table,th,td {
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(99, 97, 97);
-  }
-  input::placeholder {
-    color: white;
-  }
-  .gender{
+}
+
+input::placeholder{
+    color: white; 
+}
+
+.gender{
     width: 100%;
     color: white;
     border: none;
@@ -344,8 +369,9 @@ table,th,td {
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(99, 97, 97);
-  }
-  .activity{
+}
+
+.activity{
     width: 203.5%;
     color: white;
     border: none;
@@ -355,29 +381,31 @@ table,th,td {
     border-radius: 10px;
     background-color: rgb(99, 97, 97);
     margin-bottom: 10px;
-  }
+}
 
 
-/* meet our team section start */
+/* meet our team section start ----------------------------------*/
 .our-team-section{
     width: 75%;
     margin: 0 auto;
 }
- .our-team-intro{
+
+.our-team-intro{
     width: 65%;
     margin: 0 auto;
     text-align: center;
- }
- .trainer-section{
+}
+
+.trainer-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
- }
+}
 
- .trainer-1{
+.trainer-1{
     height: 270px;
     background-image: url(images/trainer1.png);
     background-position: top;
@@ -388,8 +416,9 @@ table,th,td {
     display: flex;
     flex-direction: column;
     justify-content: end;
- }
- .trainer-2{
+}
+
+.trainer-2{
     height: 270px;
     background-image: url(images/trainer2.png);
     background-position: top;
@@ -400,8 +429,9 @@ table,th,td {
     display: flex;
     flex-direction: column;
     justify-content: end;
- }
- .trainer-3{
+}
+
+.trainer-3{
     height: 270px;
     background-image: url(images/trainer3.png);
     background-position: top;
@@ -412,8 +442,9 @@ table,th,td {
     display: flex;
     flex-direction: column;
     justify-content: end;
- }
- .trainer-4{
+}
+
+.trainer-4{
     height: 270px;
     background-image: url(images/trainer4.png);
     background-position: center;
@@ -424,8 +455,9 @@ table,th,td {
     display: flex;
     flex-direction: column;
     justify-content: end;
- }
- .trainer-5{
+}
+
+.trainer-5{
     height: 270px;
     background-image: url(images/trainer5.png);
     background-position: center;
@@ -436,8 +468,9 @@ table,th,td {
     display: flex;
     flex-direction: column;
     justify-content: end;
- }
- .trainer-6{
+}
+
+.trainer-6{
     height: 270px;
     background-image: url(images/trainer6.png);
     background-position: center;
@@ -448,26 +481,28 @@ table,th,td {
     display: flex;
     flex-direction: column;
     justify-content: end;
- }
+}
 
- .trainer-section h6{
+.trainer-section h6{
     font-size: 1rem;
     color: white;
     font-weight: bold;
     margin: 0 20px;
- }
- .trainer-section p{
+}
+
+.trainer-section p{
     margin-left: 20px;
- }
+}
 
 
- /* footer section start */
+ /* footer section start --------------------------------------------------*/
 
  .footer{
     background-color:rgba(255, 255, 255, 0.1);
     padding: 30px 0;
     margin-top: 100px;
  }
+
  .footer-main{
     width: 75%;
     margin: 0 auto;
@@ -479,6 +514,7 @@ table,th,td {
  .fitness{
     width: 40%;
  }
+
  .started{
     width: 17%;
  }
@@ -489,6 +525,7 @@ table,th,td {
     padding-left: 0;
     line-height: 40px;
  }
+
  .fitness-title{
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -500,7 +537,6 @@ table,th,td {
     color: rgb(230, 83, 60);
     font-size: 70px;
     font-weight: 800;
-    
  }
 
  hr{
@@ -512,39 +548,39 @@ table,th,td {
     margin-top: 35px;
  }
 
- /* responsive media query start */
 
+ /* responsive media query start -----------------------------------------*/
  @media screen  and (max-width:576px){
 
     nav, .banner-section,.habit-section,.extramile-section, .our-team-section,.footer-main{
         width: 85%;
-        
     }
+
     .banner-section, .about-habit, .extramile-section, .bmi-main-section, .footer-main {
         flex-direction: column;
     }
+
     .banner-content{
         width: 100%;
         margin-bottom: 80px;
     }
+
     .habit-section-intro, .extramile-btn, .calculate-section, .activity, .our-team-intro, .fitness, .started  {
         width: 100%;
     }
+
     .habit, .bmi-intro  {
         width: 80%;
         margin: 0 auto;
     }
 
-    .habit-section-intro h1 , .extramile-intro h1, .training-section h1, .bmi-intro h1,
-    .our-team-intro h3{
+    .habit-section-intro h1 , .extramile-intro h1, .training-section h1, .bmi-intro h1,.our-team-intro h3{
         font-size: 2.5rem;
     }
+
     .banner-content h1, .fitness i{
         font-size: 3.5rem;
     }
-
-
-
 
     .bmi-calculator-form, .trainer-section{
         display: grid;
@@ -552,12 +588,12 @@ table,th,td {
         gap: 10px;
       }
 
-
     .extramile-intro{
         width: 90%;
         margin-left: 0;
         margin-bottom: 0;
     }
+
     .extramile-image{
         width: 90%;
         margin-right: 0;
@@ -565,13 +601,14 @@ table,th,td {
         margin-top: 20px;
     }
 
-
     .nav-items{
         display: none;
     }
+
     #nav-icons{
         display:block;
     }
+
     .nav-items-container{
         text-align: end;
     }
@@ -580,19 +617,23 @@ table,th,td {
         margin:20px 10px 0 0;
         font-size: 1rem;
     }
+
     .tutorial{
         margin-top: -350px;
         margin-left: -40px;
     }
+
     .free-videos{
         margin-right: -50px;
         margin-top: -550px;
     }
+
     .row{
         display: grid;
         grid-template-columns: 45% 55%;
         margin-top: 50px;
     }
+
     .row2{
         display: grid;
         grid-template-columns:55% 45% ;
@@ -605,6 +646,7 @@ table,th,td {
     .exercise1{
        background-position: center;
     }
+    
     .exercise2{
         background-position: right;
     }
