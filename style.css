@@ -81,6 +81,9 @@ nav{
 
 
 /* banner section start------------------------------------------- */
+.banner{
+    background-image: linear-gradient(to bottom, black,rgba(146, 143, 143, 0.258)50%,black);
+}
 .banner-section{
     width: 75%;
     margin: 0 auto;
@@ -96,6 +99,11 @@ nav{
     font-size: 4.85rem;
     font-weight: 900;
 }
+.banner-btn-group{
+    display: flex;
+    gap: 10px;
+    margin:30px 0;
+}
 .btn-primary{
     border-radius: 42px;
     background: rgb(230, 83, 60);
@@ -103,7 +111,11 @@ nav{
     font-size: 1.15rem;
     font-weight: 600px;
     color: rgb(255, 255, 255);
-    margin:30px 14px 0 0;
+    border: none;
+    
+}
+.banner-btn-two{
+    display: none;
 }
 .btn-secoendary{
     border-radius: 42px;
@@ -133,6 +145,12 @@ nav{
     border-radius: 100%;
     background: rgb(230, 83, 60);
     margin: 28px 12px 28px 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-play{
+    color: white;
 }
 .tutorial-text-1{
     color: rgb(250, 250, 249);
@@ -495,6 +513,58 @@ input::placeholder{
     margin-left: 20px;
 }
 
+/* training plan session */
+.plan-intro{
+    text-align: center;
+    margin: 130px 0 30px 0}
+.plan-intro p{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 0;
+} 
+.trainig-plan-section{
+    width: 75%;
+    margin: 0 auto 150px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.plan{
+    width: 24%;
+    background-color: rgb(47, 46, 46);
+    border-radius: 20px;
+    padding: 0 0 30px 0 ;
+}
+.prize{
+    background-color: rgb(230, 83, 60);
+    text-align: center;
+    width: 100%;
+    border-radius: 20px  20px 0 0;
+    padding: 10px 0;
+}
+.prize-title{
+    color: rgb(9, 9, 9);
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 0;
+}
+.prize-subtitle{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.prize-btn{
+    margin: 0 auto;
+}
+.fa-check{
+    background-color: black;
+    border-radius: 100%;
+    padding: 5px;
+}
+
 
  /* footer section start --------------------------------------------------*/
 
@@ -553,11 +623,11 @@ input::placeholder{
  /* responsive media query start -----------------------------------------*/
  @media screen  and (max-width:576px){
 
-    nav, .banner-section,.habit-section,.extramile-section, .our-team-section,.footer-main{
+    nav, .banner-section,.habit-section,.extramile-section, .our-team-section,.footer-main,.trainig-plan-section{
         width: 85%;
     }
 
-    .banner-section, .about-habit, .extramile-section, .bmi-main-section, .footer-main {
+    .banner-section, .about-habit, .extramile-section, .bmi-main-section, .footer-main,.trainig-plan-section {
         flex-direction: column;
     }
 
@@ -613,14 +683,24 @@ input::placeholder{
     .nav-items-container{
         text-align: end;
     }
+    
 
     .btn-primary, .btn-secoendary{
         margin:20px 10px 0 0;
         font-size: 1rem;
+        font-weight: 500;
+        padding: 16px 20px;
+    }
+    .banner-btn-two{
+        display: block;
+        padding: 16px 35px;
+    }
+
+    .banner-btn-one{
+        display: none;
     }
     .banner-image img{
         width: 100%;
-        /* margin: 0 auto; */
     }
 
     .tutorial{
@@ -678,5 +758,21 @@ input::placeholder{
     .exercise5{
        background-position: center;
     }
+
+    .plan  {
+        width: 80%;
+        margin: 0 auto 30px auto;
+    }
+    .prize-btn{
+        padding: 16px 40px;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .calculate-btn{
+        padding: 16px 40px;
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
     
  }
