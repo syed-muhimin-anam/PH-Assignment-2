@@ -168,6 +168,7 @@ nav{
     margin: 0;
 }
 
+
 .banner-image-advertisement{
     display: flex;
     justify-content: space-between;
@@ -617,15 +618,38 @@ input::placeholder{
         margin:20px 10px 0 0;
         font-size: 1rem;
     }
+    .banner-image img{
+        width: 100%;
+        /* margin: 0 auto; */
+    }
 
     .tutorial{
-        margin-top: -350px;
-        margin-left: -40px;
+        margin-top: -300px;
+        margin-left: 1px;
+            width: 145px;
+            height: 76px;
+    }
+    .tutorial-text-1 ,.free-videos-text-1{
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .tutorial-text-2, .free-videos-text-2{
+        font-size: .8rem;
+    }
+    .orange-circle{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
     }
 
     .free-videos{
-        margin-right: -50px;
-        margin-top: -550px;
+        margin-right: 1px;
+        margin-top: -500px;
+        width: 126px;
+        height: 46px;
+        padding: 10px 10px 10px 15px;
     }
 
     .row{
